@@ -3,41 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>True4k IPTV</title>
+<title>True4k Streaming IPTV</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
   <nav class="navbar">
-    <div class="logo">TRUE4K <span>IPTV</span></div>
+    <div class="logo">TRUE4K STREAMING <span>IPTV</span></div>
 
     <ul class="nav-links" id="menu">
-      <li><a href="#">Why True4k</a></li>
-      <li><a href="#">How It Works</a></li>
-      <li><a href="#">EPG & VOD</a></li>
-      <li><a href="#">Channel Lineup</a></li>
-      <li><a href="#">Reviews</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">FAQ</a></li>
+      <li><a href="#features-section">Why True4k</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#epg-section">EPG & VOD</a></li>
+      <li><a href="#coverage-section">Channel Lineup</a></li>
+      <li><a href="#reviews-section">Reviews</a></li>
+      <li><a href="#pricing-section">Pricing</a></li>
+      <li><a href="#faq-section">FAQ</a></li>
     </ul>
 
-    <button class="plan-btn">View Plans</button>
+    <button id="view-plans-button" class="plan-btn" onclick="window.location.href='#pricing-section'">View Plans</button>
     <div class="burger" onclick="toggleMenu()"></div>
   </nav>
 
   <div class="hero-container">
     <div class="hero-text">
-      <span class="badge">OFFICIAL TRUE4K IPTV PROVIDER</span>
+      <span class="badge">OFFICIAL TRUE4K STREAMING IPTV PROVIDER</span>
 
       <h1>
-        True4k  Premium IPTV With
+        True4k streaming Premium IPTV With
         <span>20,000+</span> Live Channels &
         4K Entertainment
       </h1>
 
       <p>
-        Stream with True4k IPTV Provider and access international live TV, premium sports, and powerful on-demand content with real 24/7 support.
+        Stream with True4k streaming IPTV Provider and access international live TV, premium sports, and powerful on-demand content with real 24/7 support.
       </p>
 
       <div class="hero-tags">
@@ -48,8 +48,8 @@
       </div>
 
       <div class="hero-buttons">
-        <button class="primary">Start True4k (Best Value)</button>
-        <button class="secondary">Setup Guide</button>
+        <button class="primary" onclick="window.location.href='#pricing-section'">Start True4k streaming (Best Value)</button>
+        <button class="secondary" onclick="window.location.href='#setup-guide'">Setup Guide</button>
       </div>
 
       <div class="stats">
@@ -79,10 +79,10 @@
 </header>
 
 <!-- FEATURES -->
-<section class="features-section">
-  <h2><span>True4k</span> Features at a Glance</h2>
+<section id="features-section" class="features-section">
+  <h2><span>True4k streaming</span> Features at a Glance</h2>
   <p class="subtitle">
-    True4k IPTV Provider is built for daily use  stable uptime, consistent quality, and a setup flow that stays simple.
+    True4k streaming IPTV Provider is built for daily use  stable uptime, consistent quality, and a setup flow that stays simple.
   </p>
 
   <div class="features-grid">
@@ -120,14 +120,14 @@
 </section>
 
 <!-- HOW IT WORKS -->
-<section class="how-section">
-  <h2>How <span>True4k</span> Works</h2>
+<section id="how-it-works" class="how-section">
+  <h2>How <span>True4k streaming</span> Works</h2>
   <p class="subtitle">No technical skills needed. Activate in minutes.</p>
 
   <div class="how-grid">
     <div class="how-card">
       <h1>1</h1>
-      <h3>Choose a True4k Plan</h3>
+      <h3>Choose a True4k streaming Plan</h3>
       <p>Select your duration and device count.</p>
     </div>
     <div class="how-card">
@@ -145,9 +145,9 @@
 
 <!-- WHAT IS TRUE4K -->
 <section class="about-section">
-  <h1>What Is <span>True4k IPTV</span>?</h1>
+  <h1>What Is <span>True4k STREAMING IPTV</span>?</h1>
   <h4>
-    True4k IPTV is a modern streaming solution designed to replace rigid cable packages with a more flexible experience.
+    True4k streaming IPTV is a modern streaming solution designed to replace rigid cable packages with a more flexible experience.
   </h4>
   <p>With True4k, you access live TV channels, movies, series, and sports through your internet connection. Instead of satellite or traditional cable, True4k delivers IPTV streams you open inside a compatible app. Watch True4k on Smart TVs, Android TV/Google TV boxes, Firestick, phones, tablets, and more  one subscription you control.</p>
   <ul class="about-list">
@@ -159,16 +159,16 @@
 </section>
 
 <!-- EPG -->
-<section class="epg-section two-grid">
+<section id="epg-section" class="epg-section two-grid">
   <div>
-    <h2>Smart EPG for <span>True4k</span></h2>
-    <p>The True4k Electronic Program Guide gives you a clean schedule view.</p>
+    <h2>Smart EPG for <span>True4k streaming</span></h2>
+    <p>The True4k streaming Electronic Program Guide gives you a clean schedule view.</p>
     <ul class="check">
       <li> 7-day EPG overview</li>
       <li> Fast navigation</li>
       <li> Catch-up support</li>
     </ul>
-    <button class="primary">See True4k Plans</button>
+    <button id="see-pricing-button" class="primary" onclick="window.location.href='#pricing-section'">See True4k streaming Plans</button>
   </div>
   <img src="image/1m1.jpeg" alt="EPG">
 </section>
@@ -183,13 +183,14 @@
       <li> New releases regularly</li>
       <li> Dedicated Ultra HD categories</li>
     </ul>
-    <button class="primary">Unlock True4k VOD</button>
+    <button id="unlock-vod-button" class="primary" onclick="window.location.href='#pricing-section'">Unlock True4k streaming VOD</button>
   </div>
 </section>
 
 <!-- COVERAGE -->
-<section class="coverage">
-  <h2>True4k Channel Coverage</h2>
+<section id="coverage-section" class="coverage">
+  <h2>True4k streaming Channel Coverage</h2>
+  <p>From local news to global sports, True4k streaming organizes everything into clear categories so you can find what you want fast.</p>
   <div class="coverage-grid">
     <span> Premium & PPV</span>
     <span> Sports & 4K</span>
@@ -202,9 +203,9 @@
 </section>
 
 <!-- REVIEWS -->
-<section class="reviews">
-  <h2>True4k IPTV  User Reviews</h2>
-  <p>Viewers choose True4k for stability, quality, and fast support when setup help is needed.
+<section id="reviews-section" class="reviews">
+  <h2>True4k streaming IPTV  User Reviews</h2>
+  <p>Viewers choose True4k streaming for stability, quality, and fast support when setup help is needed.
 
 </p>
   <div class="review-grid">
@@ -234,7 +235,7 @@
     <p>Lock in a long-term True4k subscription and enjoy the full library with stable performance. Content is updated regularly, and our team is available 24/7 to help you set up True4k on all your devices.
 
 </p>
-    <button class="primary">Activate True4k</button>
+    <button id="activate-true4k-button" class="primary" onclick="window.location.href='#pricing-section'">Activate True4k</button>
   </div>
   
   <div class="cta-image">
@@ -275,15 +276,73 @@
 </style>
 <!-- DEVICES -->
 <section class="devices">
-  <h2>True4k on All Your Devices</h2>
-  <p>One True4k account can follow you everywhere: TV, laptop, phone, tablet and more — any device that supports an IPTV player.</p> <br>
-  <img src="image/111.jpeg">
+  <div class="container">
+    <h2>True4k streaming on All Your <span class="highlight">Devices</span></h2>
+    <p>One True4k streaming account can follow you everywhere: TV, laptop, phone, tablet and more — any device that supports an IPTV player.</p>
+    
+    <div class="device-image-wrapper">
+       <img src="image/111.jpeg" alt="True4k on multiple devices">
+    </div>
+  </div>
 </section>
+<style>
+    .devices {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #031416; /* Matching your dark theme */
+}
 
+.devices h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.devices p {
+  color: #a0aec0;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+/* The wrapper handles the responsiveness */
+.device-image-wrapper {
+  max-width: 1000px; /* Limits size on big screens */
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.device-image-wrapper img {
+  width: 100%;      /* Takes full width of the wrapper */
+  height: auto;     /* Maintains aspect ratio */
+  display: block;
+  border-radius: 12px;
+  /* Optional: adds a soft glow to the image to match the UI */
+  box-shadow: 0 10px 30px rgba(0, 210, 255, 0.15); 
+}
+
+/* Mobile Specific Adjustments */
+@media (max-width: 768px) {
+  .devices {
+    padding: 50px 15px;
+  }
+  
+  .devices h2 {
+    font-size: 1.8rem; /* Smaller text for mobile */
+  }
+  
+  .devices p {
+    font-size: 1rem;
+  }
+  
+  .device-image-wrapper {
+    padding: 0; /* Use full width on tiny screens */
+  }
+}
+</style>
 <!-- SETUP -->
-<section class="setup-guide">
+<section id="setup-guide" class="setup-guide">
   <div class="center-header">
-    <h2>True4k Setup <span class="highlight">Guide</span></h2>
+    <h2>True4kstreaming Setup <span class="highlight">Guide</span></h2>
     <p>Use True4k with your favorite IPTV player. We support M3U and Xtream Codes style login.</p>
   </div>
 
@@ -303,7 +362,7 @@
       <h3>Quick Steps</h3>
       <p>Get streaming in minutes:</p>
       <ul class="check">
-        <li>Choose a True4k plan and place your order</li>
+        <li>Choose a True4k streaming plan and place your order</li>
         <li>Check your email for activation details</li>
         <li>Login using Xtream Codes or import M3U</li>
         <li>Enjoy live TV, VOD, and EPG instantly</li>
@@ -312,14 +371,14 @@
   </div>
 
   <div class="center-btn-wrapper">
-    <button class="cta-pill">Pick a True4k Plan</button>
+    <button id="pricing-section-button" class="cta-pill" onclick="window.location.href='#pricing-section'">Pick a True4k Plan</button>
   </div>
 </section>
 
-<section class="pricing">
+<section id="pricing-section" class="pricing">
   <div class="center-header">
-    <h2>Choose Your <span class="highlight">True4k Plan</span></h2>
-    <p>Every True4k plan includes live TV, movies, series, sports, EPG and 24/7 support.</p>
+    <h2>Choose Your <span class="highlight">True4k streaming Plan</span></h2>
+    <p>Every True4k streaming plan includes live TV, movies, series, sports, EPG and 24/7 support.</p>
   </div>
 
   <div class="device-selector">
@@ -390,7 +449,7 @@
         <h3>True4k – 2 Devices / 3 Months</h3>
         <div class="price-header"><span class="amount">$64.95</span><span class="duration">/3 months</span></div>
         <ul class="features">
-          <li>Share True4k with a partner</li>
+          <li>Share True4k streaming with a partner</li>
           <li>EPG & sports packages included</li>
           <li>Stable streaming across both devices</li>
         </ul>
@@ -704,8 +763,8 @@ ul.check li::before {
 <!-- WHY -->
 <section class="why">
   <div class="center-header">
-    <h2>Why Choose <span class="highlight">True4k</span> Over Other IPTV Providers?</h2>
-    <p>Not all IPTV services are built the same. True4k focuses on stability, support, and long-term reliability — not random links that disappear.</p>
+    <h2>Why Choose <span class="highlight">True4k streaming</span> Over Other IPTV Providers?</h2>
+    <p>Not all IPTV services are built the same. True4k streaming focuses on stability, support, and long-term reliability — not random links that disappear.</p>
   </div>
   
   <div class="why-grid">
@@ -724,11 +783,11 @@ ul.check li::before {
   </div>
 
   <div class="center-btn-wrapper">
-    <button class="cta-pill glow">Get True4k Now</button>
+    <button id="get-true4k-button" class="cta-pill glow" onclick="window.location.href='#pricing-section'">Get True4k Now</button>
   </div>
 </section>
 
-<section class="faq">
+<section id="faq-section" class="faq">
   <div class="center-header">
     <h2>True4k – <span class="highlight">Frequently Asked Questions</span></h2>
   </div>
@@ -777,19 +836,19 @@ ul.check li::before {
 
 <footer class="footer">
   <div class="center-header">
-    <h2>About <span class="highlight">True4k</span></h2>
-    <p>True4k IPTV Provider (True4k.com) is built for viewers who want stable streams, clear categories, and real support. Our goal is simple: consistent performance day after day.</p>
-    <p>With True4k you get 20,000+ live channels, strong sports coverage, PPV events, and a large on-demand library. All you need is a compatible app and a solid internet connection.</p>
+    <h2>About <span class="highlight">True4k streaming</span></h2>
+    <p>True4k streaming IPTV Provider (True4k.com) is built for viewers who want stable streams, clear categories, and real support. Our goal is simple: consistent performance day after day.</p>
+    <p>With True4k streaming you get 20,000+ live channels, strong sports coverage, PPV events, and a large on-demand library. All you need is a compatible app and a solid internet connection.</p>
   </div>
 
   <div class="center-btn-wrapper">
-    <button class="cta-pill glow">Start True4k Today</button>
+    <button id="start-true4k-button" class="cta-pill glow" onclick="window.location.href='#pricing-section'">Start True4k Streaming Today</button>
   </div>
 
   <div class="footer-bottom">
     <div class="footer-logo">TRUE4K <span class="highlight">IPTV</span></div>
-    <p>© 2026 True4k IPTV Provider (True4k.com). All Rights Reserved.</p>
-    <p class="disclaimer">Disclaimer: True4k IPTV Provider does not host or store any video content on its own servers. We provide access credentials and support for third-party IPTV services. Users are responsible for how they use any playlists or streams and must ensure compliance with applicable laws in their country.</p>
+    <p>© 2026 True4k streaming IPTV Provider (True4k.com). All Rights Reserved.</p>
+    <p class="disclaimer">Disclaimer: True4k streaming IPTV Provider does not host or store any video content on its own servers. We provide access credentials and support for third-party IPTV services. Users are responsible for how they use any playlists or streams and must ensure compliance with applicable laws in their country.</p>
   </div>
 </footer>
 
