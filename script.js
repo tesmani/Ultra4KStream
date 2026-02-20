@@ -35,3 +35,33 @@ document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
     }
   });
 });
+
+
+
+
+
+
+
+
+document.querySelectorAll('.device-tab').forEach(button => {
+  button.addEventListener('click', () => {
+    // Update active button state
+    document.querySelectorAll('.device-tab').forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    const target = button.getAttribute('data-device');
+    const groups = document.querySelectorAll('.pricing-group');
+
+    groups.forEach(group => {
+      if (target === 'all') {
+        group.classList.add('active'); // Show everything
+      } else {
+        group.classList.remove('active'); // Hide others
+      }
+    });
+
+    if (target !== 'all') {
+      document.getElementById(`plans-${target}`).classList.add('active');
+    }
+  });
+});
