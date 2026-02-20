@@ -6,178 +6,9 @@
 <title>True4k IPTV</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    /* Base */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f0f0f;
-  color: #fff;
-}
-
-.hero {
-  padding-bottom: 80px;
-}
-
-/* NAVBAR */
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 60px;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.logo span {
-  color: #00c2ff;
-}
-
-/* NAV LINKS */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 12px;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 18px;
-  border-radius: 30px;
-  background: rgba(255,255,255,0.08);
-  transition: all 0.25s ease;
-  display: inline-block;
-}
-
-.nav-links li a:hover {
-  background: #00c2ff;
-  color: #000;
-  transform: translateY(-2px);
-}
-
-.nav-links li a:active {
-  transform: scale(0.95);
-  animation: blink 0.2s ease-in-out;
-}
-
-/* PLAN BUTTON */
-.plan-btn {
-  padding: 12px 24px;
-  border-radius: 40px;
-  border: none;
-  background: linear-gradient(90deg, #00c2ff, #0066ff);
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-.plan-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 194, 255, 0.4);
-}
-
-.plan-btn:active {
-  transform: scale(0.95);
-  animation: blink 0.2s ease-in-out;
-}
-
-/* HERO SECTION */
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px;
-  gap: 60px;
-}
-
-.badge {
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 30px;
-  background: rgba(0,194,255,0.15);
-  color: #00c2ff;
-  font-size: 13px;
-  margin-bottom: 20px;
-}
-
-/* Hero Tags */
-.hero-tags span {
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 20px;
-  background: rgba(255,255,255,0.08);
-  margin: 5px 8px 0 0;
-  font-size: 13px;
-}
-
-/* HERO BUTTONS */
-.hero-buttons button {
-  padding: 14px 26px;
-  border-radius: 40px;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  margin-right: 12px;
-  transition: all 0.25s ease;
-}
-
-.primary {
-  background: #00c2ff;
-  color: #000;
-}
-
-.secondary {
-  background: rgba(255,255,255,0.08);
-  color: #fff;
-}
-
-.hero-buttons button:hover {
-  transform: translateY(-3px);
-}
-
-.hero-buttons button:active {
-  transform: scale(0.95);
-  animation: blink 0.2s ease-in-out;
-}
-
-/* STATS */
-.stats {
-  display: flex;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.stat {
-  background: rgba(255,255,255,0.05);
-  padding: 20px 25px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-/* HERO IMAGE */
-.hero-image img {
-  border-radius: 20px;
-  width: 100%;
-  max-width: 500px;
-}
-
-/* BLINK ANIMATION */
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0.4; }
-  100% { opacity: 1; }
-}
-</style>
+<body>
 
 <header class="hero">
-
   <nav class="navbar">
     <div class="logo">TRUE4K <span>IPTV</span></div>
 
@@ -191,19 +22,16 @@ body {
       <li><a href="#">FAQ</a></li>
     </ul>
 
-    <button class="plan-btn">View True4k Plans</button>
-
-    <div class="burger" onclick="toggleMenu()">☰</div>
+    <button class="plan-btn">View Plans</button>
+    <div class="burger" onclick="toggleMenu()"></div>
   </nav>
 
   <div class="hero-container">
-
     <div class="hero-text">
-
       <span class="badge">OFFICIAL TRUE4K IPTV PROVIDER</span>
 
       <h1>
-        True4k – Premium IPTV With
+        True4k  Premium IPTV With
         <span>20,000+</span> Live Channels &
         4K Entertainment
       </h1>
@@ -229,313 +57,255 @@ body {
           <h3>20,000+</h3>
           <p>Live Channels</p>
         </div>
-
         <div class="stat">
           <h3>4K</h3>
           <p>Ultra HD</p>
         </div>
-
         <div class="stat">
           <h3>24/7</h3>
           <p>Support</p>
         </div>
-
         <div class="stat">
           <h3>EPG</h3>
           <p>TV Guide</p>
         </div>
       </div>
-
     </div>
 
     <div class="hero-image">
       <img src="https://via.placeholder.com/500x350" alt="True4k IPTV">
     </div>
-
   </div>
-
 </header>
-<body>
+
 <!-- FEATURES -->
-
 <section class="features-section">
+  <h2><span>True4k</span> Features at a Glance</h2>
+  <p class="subtitle">
+    True4k IPTV Provider is built for daily use  stable uptime, consistent quality, and a setup flow that stays simple.
+  </p>
 
-<h2><span>True4k</span> Features at a Glance</h2>
-<p class="subtitle">
-True4k IPTV Provider is built for daily use — stable uptime, consistent quality, and a setup flow that stays simple.
-</p>
-
-<div class="features-grid">
-
-<div class="feature-card">
-<div class="icon">4K</div>
-<h3>Ultra HD Streams</h3>
-<p>Dedicated Ultra HD categories for movies, series, and sports.</p>
-</div>
-
-<div class="feature-card">
-<div class="icon">⚡</div>
-<h3>Fast, Stable Routing</h3>
-<p>Optimized routing keeps streams smooth even during peak hours.</p>
-</div>
-
-<div class="feature-card">
-<div class="icon">🛡️</div>
-<h3>Monitored 24/7</h3>
-<p>Round-the-clock monitoring with real human support.</p>
-</div>
-
-<div class="feature-card">
-<div class="icon">🎬</div>
-<h3>Movies & Series VOD</h3>
-<p>Huge VOD library with trending movies and series updates.</p>
-</div>
-
-<div class="feature-card">
-<div class="icon">📺</div>
-<h3>Clean Categories</h3>
-<p>Channels organized by region, sports, kids, and premium packs.</p>
-</div>
-
-<div class="feature-card">
-<div class="icon">✅</div>
-<h3>Easy Setup</h3>
-<p>Works with Tivimate, IPTV Smarters, GSE using M3U or Xtream.</p>
-</div>
-
-</div>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="icon">4K</div>
+      <h3>Ultra HD Streams</h3>
+      <p>Dedicated Ultra HD categories for movies, series, and sports.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon"></div>
+      <h3>Fast, Stable Routing</h3>
+      <p>Optimized routing keeps streams smooth even during peak hours.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon"></div>
+      <h3>Monitored 24/7</h3>
+      <p>Round-the-clock monitoring with real human support.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon"></div>
+      <h3>Movies & Series VOD</h3>
+      <p>Huge VOD library with trending movies and series updates.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon"></div>
+      <h3>Clean Categories</h3>
+      <p>Channels organized by region, sports, kids, and premium packs.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon"></div>
+      <h3>Easy Setup</h3>
+      <p>Works with Tivimate, IPTV Smarters, GSE using M3U or Xtream.</p>
+    </div>
+  </div>
 </section>
 
 <!-- HOW IT WORKS -->
-
 <section class="how-section">
+  <h2>How <span>True4k</span> Works</h2>
+  <p class="subtitle">No technical skills needed. Activate in minutes.</p>
 
-<h2>How <span>True4k</span> Works</h2>
-<p class="subtitle">No technical skills needed. Activate in minutes.</p>
-
-<div class="how-grid">
-
-<div class="how-card">
-<h1>1</h1>
-<h3>Choose a True4k Plan</h3>
-<p>Select your duration and device count.</p>
-</div>
-
-<div class="how-card">
-<h1>2</h1>
-<h3>Instant Activation</h3>
-<p>Login details sent by email after checkout.</p>
-</div>
-
-<div class="how-card">
-<h1>3</h1>
-<h3>Login & Start Streaming</h3>
-<p>Enter details into your IPTV app and enjoy instantly.</p>
-</div>
-
-</div>
+  <div class="how-grid">
+    <div class="how-card">
+      <h1>1</h1>
+      <h3>Choose a True4k Plan</h3>
+      <p>Select your duration and device count.</p>
+    </div>
+    <div class="how-card">
+      <h1>2</h1>
+      <h3>Instant Activation</h3>
+      <p>Login details sent by email after checkout.</p>
+    </div>
+    <div class="how-card">
+      <h1>3</h1>
+      <h3>Login & Start Streaming</h3>
+      <p>Enter details into your IPTV app and enjoy instantly.</p>
+    </div>
+  </div>
 </section>
 
 <!-- WHAT IS TRUE4K -->
-
 <section class="about-section">
-
-<h1>What Is <span>True4k IPTV</span>?</h1>
-
-<h4>
-True4k IPTV is a modern streaming solution designed to replace rigid cable packages with a more flexible experience.
-</h4>
-
-<p>With True4k, you access live TV channels, movies, series, and sports through your internet connection. Instead of satellite or traditional cable, True4k delivers IPTV streams you open inside a compatible app.
-
-Watch True4k on Smart TVs, Android TV/Google TV boxes, Firestick, phones, tablets, and more — one subscription you control.</p>
-<ul class="about-list">
-<li>✔ Internet-based streaming instead of satellite dishes</li>
-<li>✔ 20,000+ live channels + large VOD library</li>
-<li>✔ Works with Tivimate, IPTV Smarters, GSE</li>
-<li>✔ Flexible plans for 1–3 devices</li>
-</ul>
-
+  <h1>What Is <span>True4k IPTV</span>?</h1>
+  <h4>
+    True4k IPTV is a modern streaming solution designed to replace rigid cable packages with a more flexible experience.
+  </h4>
+  <p>With True4k, you access live TV channels, movies, series, and sports through your internet connection. Instead of satellite or traditional cable, True4k delivers IPTV streams you open inside a compatible app. Watch True4k on Smart TVs, Android TV/Google TV boxes, Firestick, phones, tablets, and more  one subscription you control.</p>
+  <ul class="about-list">
+    <li> Internet-based streaming instead of satellite dishes</li>
+    <li> 20,000+ live channels + large VOD library</li>
+    <li> Works with Tivimate, IPTV Smarters, GSE</li>
+    <li> Flexible plans for 13 devices</li>
+  </ul>
 </section>
 
-<section class="epg-section">
-
-<div class="two-grid">
-<div>
-<h2>Smart EPG for <span>True4k</span></h2>
-<p>The True4k Electronic Program Guide gives you a clean schedule view.</p>
-
-<ul class="check">
-<li>✔ 7-day EPG overview</li>
-<li>✔ Fast navigation</li>
-<li>✔ Catch-up support</li>
-</ul>
-
-<button class="primary">See True4k Plans</button>
-</div>
-
-<img src="https://via.placeholder.com/450x260">
-</div>
-
+<!-- EPG -->
+<section class="epg-section two-grid">
+  <div>
+    <h2>Smart EPG for <span>True4k</span></h2>
+    <p>The True4k Electronic Program Guide gives you a clean schedule view.</p>
+    <ul class="check">
+      <li> 7-day EPG overview</li>
+      <li> Fast navigation</li>
+      <li> Catch-up support</li>
+    </ul>
+    <button class="primary">See True4k Plans</button>
+  </div>
+  <img src="https://via.placeholder.com/450x260" alt="EPG">
 </section>
 
-<section class="vod-section two-grid">
-<img src="https://via.placeholder.com/450x260">
-
-<div>
-<h2>Massive True4k VOD Library</h2>
-<ul class="check">
-<li>Large movie & series catalog</li>
-<li>New releases regularly</li>
-<li>Dedicated Ultra HD categories</li>
-</ul>
-
-<button class="primary">Unlock True4k VOD</button>
-</div>
+<!-- VOD -->
+<section class="vod-section">
+  <img src="https://via.placeholder.com/450x260" alt="VOD Library">
+  <div>
+    <h2>Massive True4k VOD Library</h2>
+    <ul class="check">
+      <li> Large movie & series catalog</li>
+      <li> New releases regularly</li>
+      <li> Dedicated Ultra HD categories</li>
+    </ul>
+    <button class="primary">Unlock True4k VOD</button>
+  </div>
 </section>
 
+<!-- COVERAGE -->
 <section class="coverage">
-
-<h2>True4k Channel Coverage</h2>
-
-<div class="coverage-grid">
-<span>★ Premium & PPV</span>
-<span>⚽ Sports & 4K</span>
-<span>🇺🇸 USA & Canada</span>
-<span>🇬🇧 UK & Europe</span>
-<span>🎬 Movies</span>
-<span>🗺️ 20,000+</span>
-<span>👧 Kids</span>
-</div>
-
+  <h2>True4k Channel Coverage</h2>
+  <div class="coverage-grid">
+    <span> Premium & PPV</span>
+    <span> Sports & 4K</span>
+    <span> USA & Canada</span>
+    <span> UK & Europe</span>
+    <span> Movies</span>
+    <span> 20,000+</span>
+    <span> Kids</span>
+  </div>
 </section>
 
+<!-- REVIEWS -->
 <section class="reviews">
-
-<h2>True4k IPTV – User Reviews</h2>
-
-<div class="review-grid">
-
-<div class="review">
-★★★★★
-<p>Sports streams are smooth and 4K looks amazing.</p>
-small>Android TV</small>
-</div>
-
-<div class="review">
-★★★★★
-<p>Support replies fast. Setup was easy.</p>
-<small>Firestick</small>
-</div>
-
-<div class="review">
-★★★★★
-<p>Big VOD library and clean EPG.</p>
-<small>iOS + Smart TV</small>
-</div>
-
-</div>
-
+  <h2>True4k IPTV  User Reviews</h2>
+  <div class="review-grid">
+    <div class="review">
+      <div class="stars"></div>
+      <p>Sports streams are smooth and 4K looks amazing.</p>
+      <small>Android TV</small>
+    </div>
+    <div class="review">
+      <div class="stars"></div>
+      <p>Support replies fast. Setup was easy.</p>
+      <small>Firestick</small>
+    </div>
+    <div class="review">
+      <div class="stars"></div>
+      <p>Big VOD library and clean EPG.</p>
+      <small>iOS + Smart TV</small>
+    </div>
+  </div>
 </section>
 
+<!-- CTA -->
 <section class="cta">
-
-<h2>Global IPTV, Daily Updates & Real Support</h2>
-<p>Stable performance with 24/7 assistance.</p>
-<button class="primary">Activate True4k</button>
-
+  <h2>Global IPTV, Daily Updates & Real Support</h2>
+  <p>Stable performance with 24/7 assistance.</p>
+  <button class="primary">Activate True4k</button>
 </section>
 
+<!-- DEVICES -->
 <section class="devices">
-<h2>True4k on All Your Devices</h2>
-<p>Smart TV • Android • iOS • Firestick • Laptop • Tablet</p>
+  <h2>True4k on All Your Devices</h2>
+  <p>Smart TV  Android  iOS  Firestick  Laptop  Tablet</p>
 </section>
 
-<section class="setup two-grid">
-
-<div>
-<h2>True4k Setup Guide</h2>
-<ul class="check">
-<li>Tivimate</li>
-<li>IPTV Smarters</li>
-<li>GSE</li>
-<li>VLC / Kodi</li>
-</ul>
-</div>
-
-<div>
-<h3>Quick Steps</h3>
-<ul class="check">
-<li>Choose plan</li>
-<li>Check email</li>
-<li>Login M3U/Xtream</li>
-<li>Enjoy streaming</li>
-</ul>
-</div>
-
+<!-- SETUP -->
+<section class="setup two-grid-stack">
+  <div>
+    <h2>True4k Setup Guide</h2>
+    <ul class="check">
+      <li>Tivimate</li>
+      <li>IPTV Smarters</li>
+      <li>GSE</li>
+      <li>VLC / Kodi</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Quick Steps</h3>
+    <ul class="check">
+      <li>Choose plan</li>
+      <li>Check email</li>
+      <li>Login M3U/Xtream</li>
+      <li>Enjoy streaming</li>
+    </ul>
+  </div>
 </section>
 
-
+<!-- PRICING -->
 <section class="pricing">
-
-<h2>Choose Your True4k Plan</h2>
-
-<div class="pricing-grid">
-
-<div class="price">
-<h3>1 Month</h3>
-<h1>$20</h1>
-<button>Order</button>
-</div>
-
-<div class="price">
-<h3>3 Months</h3>
-<h1>$40</h1>
-<button>Order</button>
-</div>
-
-<div class="price">
-<h3>6 Months</h3>
-<h1>$65</h1>
-<button>Order</button>
-</div>
-
-<div class="price">
-<h3>14 Months</h3>
-<h1>$95</h1>
-<button>Annual</button>
-</div>
-
-</div>
-
+  <h2>Choose Your True4k Plan</h2>
+  <div class="pricing-grid">
+    <div class="price">
+      <h3>1 Month</h3>
+      <h1>\</h1>
+      <button class="price-btn">Order</button>
+    </div>
+    <div class="price">
+      <h3>3 Months</h3>
+      <h1>\</h1>
+      <button class="price-btn">Order</button>
+    </div>
+    <div class="price">
+      <h3>6 Months</h3>
+      <h1>\</h1>
+      <button class="price-btn">Order</button>
+    </div>
+    <div class="price">
+      <h3>14 Months</h3>
+      <h1>\</h1>
+      <button class="price-btn">Annual</button>
+    </div>
+  </div>
 </section>
 
+<!-- WHY -->
 <section class="why">
-
-<h2>Why Choose True4k?</h2>
-
-<ul class="check center">
-<li>Official brand</li>
-<li>24/7 real support</li>
-<li>Optimized for sports</li>
-<li>No resellers</li>
-<li>No Telegram scams</li>
-<li>No hidden fees</li>
-</ul>
-
-<button class="primary">Get True4k Now</button>
-
+  <h2>Why Choose True4k?</h2>
+  <ul class="check center">
+    <li>Official brand</li>
+    <li>24/7 real support</li>
+    <li>Optimized for sports</li>
+    <li>No resellers</li>
+    <li>No Telegram scams</li>
+    <li>No hidden fees</li>
+  </ul>
+  <button class="primary">Get True4k Now</button>
 </section>
 
+<!-- FOOTER -->
 <footer>
-
-<h3>About True4k</h3>
-<p>20,000+ channels, sports, PPV and VOD with reliable daily streaming.</p>
-
-<p>© 2026 True4k IPTV Provider</p>
-
+  <h3>About True4k</h3>
+  <p>20,000+ channels, sports, PPV and VOD with reliable daily streaming.</p>
+  <p> 2026 True4k IPTV Provider</p>
 </footer>
 
-<script src="app.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
