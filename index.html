@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,13 +10,29 @@
 </head>
 <style>
   .logo img {
-  height: 100px;   /* adjust as needed */
-  width: auto;
-  display: block;
-}
+    height: auto;
+    width: 80px;
+    max-width: 100%;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .logo img {
+      width: 60px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      width: 50px;
+    }
+    
+    .logo {
+      flex-shrink: 1;
+    }
+  }
 </style>
 <body>
-
 <header class="hero">
   <nav class="navbar">
     <div class="logo">
@@ -572,9 +588,6 @@
   margin-bottom: 15px;
   font-weight: 600;
 }
-
-.price-header { display: none !important; }
-
 </style>
   
   <p class="guarantee">7-Day Money-Back Guarantee on True4k annual plans during the first week after activation.</p>
@@ -781,11 +794,6 @@ ul.check li::before {
   display: none !important;
 }
 </style>
-
-<style>
-/* Hide prices */
-.price-header { display: none !important; }
-</style>
 <!-- WHY -->
 <section class="why">
   <div class="center-header">
@@ -887,8 +895,6 @@ ul.check li::before {
 <script src="script.js"></script>
 </body>
 </html>
-
-
 
 
 
